@@ -1,84 +1,80 @@
----<<<{ Linux für Blinde und Sehbehinderte }>>>---
+---
 
+## Linux für Blinde und Sehbehinderte
 
-|=========== Screenreader unter Linux ===========|
+### Screenreader unter Linux
 
-Ein Screenreader ist Standardmäßig in Gnome, KDE und allen darauf aufbauenden Desktops integriert. 
+Ein Screenreader ist standardmäßig in Gnome, KDE und allen darauf aufbauenden Desktops integriert.
 
-|=========== Starten und Konfigurieren ===========|
+### Starten und Konfigurieren
 
-Screenreader Einstellungen in Cinnamon öffnen 
-    Alt + F2 drücken
-    In das Fenster "orca -s" eingeben und Enter drücken
+Um die Screenreader-Einstellungen in Cinnamon zu öffnen:
 
-Hier kann dann der Screenreader Konfiguriert werden.
+1. Alt + F2 drücken.
+2. In das Fenster "orca -s" eingeben und Enter drücken.
 
-    Um diesen einfach nur zu starten
-    Alt + F2 
-    "orca" 
-    Dann wird nur der Screenreader gestartet.
+Hier kann dann der Screenreader konfiguriert werden.
 
-|=========== Braillie ===========|
+Um den Screenreader einfach nur zu starten:
 
-Um Brailliezeilen nutzen zu können wird noch zusätzlich das Paket "brltty" benötigt.
+1. Alt + F2 drücken.
+2. "orca" eingeben.
+3. Der Screenreader wird gestartet.
 
-|=========== Bildschirmvergrößerung ===========|
+### Braille
 
-Die derzeit besten Tools sind die, die unter Barrierefreiheit in den Einstellungen verfügbar sind, 
-alle anderen Bildschirmlupen für Linux sind mehr oder weniger unbrauchbar. 
+Um Braillezeilen nutzen zu können, wird zusätzlich das Paket "brltty" benötigt.
 
-In den meisten Fällen lässt sich das Menü für Barrierefreiheit auch in die Taskleiste integrieren, 
-um den Zugang zu erleichtern.
+### Bildschirmvergrößerung
 
-Ich habe jetzt viele unterschieldiche aussagen zu der Bildschirmvergrößerung unter Linux gehört.
-Vorallem die Punkte zur schlechten Darstellungsqualität (also Verpixeltes bild) lassen sich leider nicht beheben.
-Die Standard Windows Bildschirmlupe kann das leider auch nicht besser. 
-Programme wie ZoomText gibt es unter Linux nicht und selbst wenn man diese Installieren könnte,
-würden diese nicht funktionieren. Sie greifen nämlich Maßgeblich auf Windowsschnittstellen zurück umd Texte etc skallieren zu können.
-Die Linuxlupen können das nicht und setzen maximal auf Kantenglättungstechnologien.
+Die derzeit besten Tools sind die, die unter "Barrierefreiheit" in den Einstellungen verfügbar sind. Alle anderen Bildschirmlupen für Linux sind mehr oder weniger unbrauchbar.
 
-Am ehsten kann man das mit dem unterschield zwischen einem Optischen und einem Digitalem zoom bei einer Kamera vergleichen.
-Linux kann quasi nur Digital zoomen. 
+In den meisten Fällen lässt sich das Menü für Barrierefreiheit auch in die Taskleiste integrieren, um den Zugang zu erleichtern.
 
-|=========== Probleme die ich noch nicht Lösen konnte ===========|
+Ich habe viele unterschiedliche Aussagen zur Bildschirmvergrößerung unter Linux gehört. Vor allem die Punkte zur schlechten Darstellungsqualität (also verpixeltes Bild) lassen sich leider nicht beheben. Die Standard-Windows-Bildschirmlupe kann das leider auch nicht besser. Programme wie ZoomText gibt es unter Linux nicht, und selbst wenn man diese installieren könnte, würden sie nicht funktionieren. Sie greifen nämlich maßgeblich auf Windows-Schnittstellen zurück, um Texte etc. skalieren zu können. Die Linux-Lupen können das nicht und setzen maximal auf Kantenglättungstechnologien.
 
-Probleme mit dem Screenreader sind die sehr veralteten Sprachmodelle, die ein ordentliches Arbeiten erschweren. 
-Ich konnte bis jetzt noch keine Methode finden dort halbwegs vernünftige Modelle einzupflegen. 
+Am ehesten kann man das mit dem Unterschied zwischen einem optischen und einem digitalen Zoom bei einer Kamera vergleichen. Linux kann quasi nur digital zoomen.
 
-Das sind Pakete au die ich gestoßen bin, dort sind unterschieldiche Sprachmodelle dabei:
-    - speech-tools 
-    - speech-dispatcher  
-    - speech-dispatcher-espeak  
-    - speech-dispatcher-espeak-ng  
-    - espeak  
-    - espeak-ng 
+### Probleme, die ich noch nicht lösen konnte
 
-|=========== diverse Resourcen aus meiner Recherche ===========|
+Probleme mit dem Screenreader sind die sehr veralteten Sprachmodelle, die ein ordentliches Arbeiten erschweren. Ich konnte bisher noch keine Methode finden, dort halbwegs vernünftige Modelle einzupflegen.
 
-Die meisten sachen beziehen sich hier auf meine Probleme mit den Stimmen.
+Das sind die Pakete, auf die ich gestoßen bin, die verschiedene Sprachmodelle beinhalten:
 
-Anleitungen: 
+- speech-tools
+- speech-dispatcher
+- speech-dispatcher-espeak
+- speech-dispatcher-espeak-ng
+- espeak
+- espeak-ng
 
-    - https://help.gnome.org/users/orca/unstable/introduction.html.de  
-    - https://techblog.wikimedia.org/2020/07/02/an-orca-screen-reader-tutorial/  
-    - https://espeak.sourceforge.net/index.html  
-    - https://github.com/linux-speakup/espeakup  
-    - https://github.com/GNOME/orca  
+### Diverse Ressourcen aus meiner Recherche
 
-Foren Beiträge: 
+Die meisten Informationen beziehen sich auf meine Probleme mit den Stimmen.
 
-    - https://help.ubuntu.com/community/TextToSpeech  
-    - https://help.ubuntu.com/community/Accessibility  
-    - https://wiki.ubuntuusers.de/eSpeak/  
-    - http://5in4.de/blog/2010/01/16/text-to-speech-mit-espeak-und-mbrola/  
-    - https://askubuntu.com/questions/11448/festival-on-orca 
-    - https://forums.linuxmint.com/viewtopic.php?t=348355 
-    - https://www.mikrocontroller.net/topic/488756 (deutsche Stimmen) 
+#### Anleitungen:
 
-Beste Seite für Infos rund um das Thema (bis jetzt): 
+- [Orca Screen Reader Einführung (deutsch)](https://help.gnome.org/users/orca/unstable/introduction.html.de)
+- [Orca Screen Reader Tutorial (Englisch)](https://techblog.wikimedia.org/2020/07/02/an-orca-screen-reader-tutorial/)
+- [eSpeak Webseite](https://espeak.sourceforge.net/index.html)
+- [espeakup Projekt auf GitHub](https://github.com/linux-speakup/espeakup)
+- [Orca Projekt auf GitHub](https://github.com/GNOME/orca)
 
-    - http://www.linux-fuer-blinde.de/ 
+#### Forenbeiträge:
 
-YouTube Kanal mit 1-2 interessanten Beiträgen zu Orca (Englisch): 
+- [Ubuntu TextToSpeech Community](https://help.ubuntu.com/community/TextToSpeech)
+- [Ubuntu Accessibility Community](https://help.ubuntu.com/community/Accessibility)
+- [eSpeak auf Ubuntuusers](https://wiki.ubuntuusers.de/eSpeak/)
+- [Text-to-Speech mit eSpeak und Mbrola (Blog)](http://5in4.de/blog/2010/01/16/text-to-speech-mit-espeak-und-mbrola/)
+- [Festival auf Orca (Ask Ubuntu)](https://askubuntu.com/questions/11448/festival-on-orca)
+- [Screenreader auf Linux Mint Forum](https://forums.linuxmint.com/viewtopic.php?t=348355)
+- [Deutsche Stimmen auf Mikrocontroller.net](https://www.mikrocontroller.net/topic/488756)
 
-    - https://www.youtube.com/@zaccess73/videos  
+Beste Seite für Infos rund um das Thema (bis jetzt):
+
+- [Linux für Blinde](http://www.linux-fuer-blinde.de/)
+
+YouTube-Kanal mit 1-2 interessanten Beiträgen zu Orca (Englisch):
+
+- [Zaccess73 auf YouTube](https://www.youtube.com/@zaccess73/videos)
+
